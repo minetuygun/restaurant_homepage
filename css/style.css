@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden
+}
+body {
+  background-color:red;
+ 
+
+}
+section{
+  padding:3.5rem 7%;
+}
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 5%;
+  margin: 30px;
+  border-radius: 30rem;
+  position:relative;
+  top:0;
+
+}
+.header .navbar a{
+    margin:20px;
+    font-size: 1.6rem;
+    padding: 20;
+    color:black;
+    border-bottom: 0.1rem solid transparent;
+    text-decoration: none;
+   
+}
+.header .navbar a:hover{
+    border-color: red;
+}
+.header .navbar .active{
+color: red;
+
+}
+.header .logo img {
+  height: 10rem;
+}
+
+.home{
+min-height: 100vh;
+background: url(/assets/img/background.webp)no-repeat;
+background-size: cover;
+background-position: center;
+margin-top: -16.5rem;
+display: flex;
+align-items: center;
+
+}
+.home .content{
+    max-width: 60rem;
+}
+.home .content h3{
+    font-size: 60px;
+    color:white;
+}
+.home .content p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.8;
+    padding:1 rem 0;
+    color:white
+}
+.button{
+  border-radius: 30rem;
+  background-color:black;
+  margin-top: 1 rem;
+  display:inline-block;
+  padding: 1.5rem 2.75rem;
+  font-size: 17px;
+  color:white;
+  cursor: pointer;
+  margin:15px;
+  text-decoration: none;
+}
+
+.title{
+   font-size: 50px;
+   font-style: italic;
+    margin-left: 8rem;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  
+  .left-text-content p {
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+  
+ .right-content {
+    margin-left: 30px;
+  }
+  
+  .right-content .thumb {
+    position: relative;
+  }
+  
+   .right-content .thumb a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    line-height: 70px;
+    text-align: center;
+    background-color: #fb5849;
+    color: #fff;
+    border-radius: 50%;
+    transform: translate(-35px, -35px);
+    transition: all .3s;
+  }
+  
+ .right-content .thumb a:hover {
+    opacity: .9;
+  }
+  
+
+  
